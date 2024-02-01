@@ -3,7 +3,10 @@ package com.bvk.singleton;
 public class SingletonApp {
     public static void main(String[] args) {
 
-        // Buat 1 object untuk digunakan di bagian kode manapun jika ada yang mebutuhkan objek tersebut maka akan di balikkan objek yang sama kalo objek tersebut sebelumnya sudah pernah dibuat.
+        // Pola desain yang memastikan bahwa sebuah kelas memiliki hanya satu instance dan menyediakan cara untuk mengakses instance tersebut dari titik mana pun dalam aplikasi.
+        // Prinsipnya adalah bahwa singleton mengontrol pembuatan objek tunggal untuk kelasnya, sehingga memastikan bahwa setiap kali kelas tersebut diinstansiasi, hanya satu instance yang dibuat dan instance tersebut dapat diakses secara global.
+        // Dapat menghindari pemborosan memori dan konflik akses ke sumber daya Bersama.
+
         OrderService orderService = new OrderService();
         orderService.save("0001");
 
