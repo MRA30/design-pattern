@@ -1,22 +1,0 @@
-
-Y
-java:S1854"7Remove this useless assignment to local variable "dog".(™Üì½üÿÿÿÿ8õäîøÕ1
-Y
-java:S1854"7Remove this useless assignment to local variable "cat".(Ûû¶·ûÿÿÿÿ8÷íøÕ1
-[
-java:S1854"9Remove this useless assignment to local variable "tiger".(á½»³ûÿÿÿÿ8‚ëøÕ1
-W
-java:S1854	":Remove this useless assignment to local variable "staff1".(ó”‹Ø8‚ëøÕ1
-Y
-java:S1854"<Remove this useless assignment to local variable "manager1".(ªûÁ—8‚ëøÕ1
-W	java:S125"<This block of commented-out lines of code should be removed.(ÏåË#8ŠÖ¥ùÕ1
-J
-java:S1481"-Remove this unused "manager1" local variable.(ªûÁ—8‚ëøÕ1
-H
-java:S1481	"+Remove this unused "staff1" local variable.(ó”‹Ø8‚ëøÕ1
-L
-java:S1481"*Remove this unused "tiger" local variable.(á½»³ûÿÿÿÿ8‚ëøÕ1
-J
-java:S1481"(Remove this unused "cat" local variable.(Ûû¶·ûÿÿÿÿ8’÷íøÕ1
-J
-java:S1481"(Remove this unused "dog" local variable.(™Üì½üÿÿÿÿ8øäîøÕ1
