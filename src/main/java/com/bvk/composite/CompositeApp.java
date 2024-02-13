@@ -7,7 +7,7 @@ public class CompositeApp {
 
     public static void main(String[] args) {
 
-        // jika struktur data dalam bentuk tree jadi object mempunyai collection objek
+        // jika struktur data dalam bentuk tree atau banyak cabang atau object mempunyai collection objek
 
         List<Category> categoryList = Arrays.asList(
                 new CompositeCategory("HandPhone", Arrays.asList(
