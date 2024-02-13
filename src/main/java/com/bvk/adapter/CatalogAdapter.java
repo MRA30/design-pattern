@@ -8,7 +8,7 @@ public interface CatalogAdapter {
 
 class BookCatalogAdapter implements CatalogAdapter {
 
-    private Book book;
+    private final Book book;
 
     @Override
     public String getCatalogTitle() {
@@ -22,7 +22,7 @@ class BookCatalogAdapter implements CatalogAdapter {
 
 class SceencastCatalogAdapter implements CatalogAdapter {
 
-    private Screencast screencast;
+    private final Screencast screencast;
 
     @Override
     public String getCatalogTitle() {
