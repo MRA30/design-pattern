@@ -11,6 +11,9 @@ import java.util.List;
 public class FacadeApp {
     public static void main(String[] args) {
 
+        // membuat class baru untuk mengelompokkan logic yang compleks
+        // sama seperti service, jadi penghubung antara repository dan controller
+
         Customer customer = new Customer();
         customer.setId("01");
         customer.setName("Eko");
