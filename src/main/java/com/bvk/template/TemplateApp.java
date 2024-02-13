@@ -4,6 +4,8 @@ public class TemplateApp {
 
     public static void main(String[] args) {
 
+        // untuk mempermudah pengembangan template dan kode logic tidak bercecer di masing masing class
+
         BlockGame blockGame1 = new BlockGame();
         blockGame1.start();
 
